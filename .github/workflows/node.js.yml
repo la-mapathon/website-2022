@@ -24,7 +24,7 @@ jobs:
     - name: Build Site
       run: npm run clean:build
     - name: Copy CNAME to dir/
-      run: cp CNAME /dir
+      run: cp CNAME dir/
     - name: Commit and push changes
       run: |
         git config --global user.name "matikin9"
