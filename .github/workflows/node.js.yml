@@ -32,4 +32,5 @@ jobs:
         git config --global user.name "matikin9"
         git config --global user.email "matikin9@gmail.com"
         git add .
-        git diff --quiet || (git commit -am 'Auto clean and build site' && git push -f)
+        git commit -am 'Auto clean and build site'
+        git push -f
