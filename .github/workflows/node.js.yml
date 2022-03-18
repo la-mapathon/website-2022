@@ -25,8 +25,11 @@ jobs:
       run: npm run clean:build
     - name: Copy CNAME to docs/
       run: cp CNAME docs/
+    - name: List files
+      run: ls -lR
     - name: Commit and push changes
       run: |
         git config --global user.name "matikin9"
         git config --global user.email "matikin9@gmail.com"
-        git diff --quiet || (git add . && git commit -m 'Auto clean and build site' && git push -f)
+        git add .
+        git diff --quiet || (git commit -am 'Auto clean and build site' && git push -f)
