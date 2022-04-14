@@ -59,7 +59,7 @@ module.exports = {
 		},
 		{
 			name: "Heather Chou",
-			blurb: "Ask me about Humanitarian GIS!",
+			blurb: "Ask me about the UCLA Geographer's Association!",
 			image: "https://uclageographyassociation268883444.files.wordpress.com/2020/11/img_6256-1.jpg?w=300",
 			affiliation: "UCLA",
 			status: "Student",
