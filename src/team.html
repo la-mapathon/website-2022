@@ -7,10 +7,14 @@ layout: team
 		<div class="my-4 text-center">
 			<h1 class="display-5 fw-bold">The Mapadores</h1>
 		</div>
+		<!-- <div class="container">
+			<div class="d-flex mt-5 justify-content-center"> -->
+				
+				
 		<div class="row">
-			<div class="col d-flex flex-wrap justify-content-between">
+			<div class="col d-flex flex-wrap  justify-content-center">
 			{% for member in team.members %}
-				<div class="card text-center my-3" style="width: 18rem;">
+				<div class="card text-center mx-2 my-2" style="width: 18rem;">
 					<div class="card-body d-flex flex-column justify-content-between">
 						<h2 class="card-title"><img src="../images/{{ member.affiliation}}.png" width="30"> {{ member.name }}</h2>
 						<p class="card-text">{{ member.blurb }}</p>

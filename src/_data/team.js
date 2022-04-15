@@ -64,6 +64,22 @@ module.exports = {
 			affiliation: "UCLA",
 			status: "Student",
 			org: "Geographer's Association"
-		}
+		},
+		{
+			name: "Cerys Edwards",
+			blurb: "Ask me about the UCLA Library's map collection!",
+			image: "../images/cerys.png",
+			affiliation: "UCLA",
+			status: "Student",
+			org: "UCLA Library"
+		},
+		{
+			name: "Will Foote",
+			blurb: "Ask me about statistics (and all things Wordle)!",
+			image: "../images/will.png",
+			affiliation: "UCLA",
+			status: "Student",
+			org: "UCLA Library"
+		},
 	]
 };
