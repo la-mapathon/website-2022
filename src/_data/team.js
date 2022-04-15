@@ -34,6 +34,14 @@ module.exports = {
 			org: "SC Mappers"
 		},
 		{
+			name: "Ethan Allavarpu",
+			blurb: "Ask me about data science and machine learning!",
+			image: "../images/ethan.jpeg",
+			affiliation: "UCLA",
+			status: "Student",
+			org: "Library"
+		},
+		{
 			name: "Andy Rutkowski",
 			blurb: "Ask me about cartography!",
 			image: "../images/andy.png",
