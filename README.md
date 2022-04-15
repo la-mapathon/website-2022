@@ -1,5 +1,7 @@
 # LA Mapathon Website
 
+https://mapathon.la/
+
 This is a static website for the Annual LA Humanitarian Mapathon, hosted by USC & UCLA.  It uses Eleventy (11ty), a static site generator that uses Node.  Eleventy gives you a choice in templating engines.  This repository uses the Liquid templating language.
 
 ## Getting Started
