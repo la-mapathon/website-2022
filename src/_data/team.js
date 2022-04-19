@@ -2,6 +2,14 @@ module.exports = {
 	name: "Team Members",
 	members: [
 		{
+			name: "Richard Hinton",
+			blurb: "Ask me about YouthMappers!",
+			image: "../images/richard.png",
+			affiliation: "USC",
+			status: "Student",
+			org: "SC Mappers"
+		},
+		{
 			name: "Heather Chou",
 			blurb: "Ask me about the UCLA Geographer's Association!",
 			image: "https://uclageographyassociation268883444.files.wordpress.com/2020/11/img_6256-1.jpg?w=300",
@@ -68,7 +76,7 @@ module.exports = {
 		{
 			name: "Yoh Kawano",
 			blurb: "Ask me about spatial data science!",
-			image: "../images/yoh.png",
+			image: "../images/yoh.jpeg",
 			affiliation: "UCLA",
 			status: "Staff",
 			org: "Office of Advanced Research Computing"
