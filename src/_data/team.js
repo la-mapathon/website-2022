@@ -10,6 +10,14 @@ module.exports = {
 			org: "SC Mappers"
 		},
 		{
+			name: "Bowen Wang",
+			blurb: "Ask me about climate change!",
+			image: "../images/bowen.jpeg",
+			affiliation: "UCLA",
+			status: "Student",
+			org: "Geographer's Association"
+		},
+		{
 			name: "Vivian Jade Yee",
 			blurb: "Ask me about the UCLA Geographer's Association!",
 			image: "../images/vivian.png",
